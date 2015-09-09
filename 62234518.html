@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<!--[if gte IE 9 ]><html class="ie ie9 scripts-not-loaded" lang="en"> <![endif]-->
+<!--[if !(IE)]><!--> <html class="not-ie scripts-not-loaded" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>  FlyScript.cs: DGM-1600-001
+</title>
+  <!--[if lte IE 8]> <meta http-equiv=refresh content="0; URL=/ie-8-is-not-supported.html" /> <![endif]-->
+
+  <link href="https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link href="https://du11hjcvx0uqb.cloudfront.net/dist/images/apple-touch-icon-585e5d997d.png" rel="apple-touch-icon" />
+
+  
+  <link href="https://du11hjcvx0uqb.cloudfront.net/dist/brandable_css/legacy_normal_contrast/bundles/common-bf0f082027.css" media="all" rel="stylesheet" type="text/css" />
+  
+  <meta content="app-id=480883488" name="apple-itunes-app" />
+<meta content="app-id=com.instructure.candroid" name="google-play-app" />
+  
+  
+  <link href="https://desource.uvu.edu/canvasbrandingtools/overrides_solid.css" media="all" rel="stylesheet" type="text/css" />
+  <script>
+    // listen for any clicks on links that have href="#" and queue them to be fired on dom ready.
+      function _earlyClick(e){
+        var cur = e.target || e.srcElement;
+        while ( cur && cur.ownerDocument ) {
+          if ( cur.getAttribute('href') == '#' ) {
+            e.preventDefault();
+            _earlyClick.clicks = _earlyClick.clicks || [];
+            _earlyClick.clicks.push(cur);
+            break;
+          }
+          cur = cur.parentNode;
+        }
+      }
+      document.addEventListener('click', _earlyClick);
+  </script>
+</head>
+
+<body class="with-left-side files context-course_368679">
+<noscript>
+  <div role="alert" class="ic-flash-static ic-flash-error">
+    <h1>You need to have JavaScript enabled in order to access this site.</h1>
+  </div>
+</noscript>
+
+
+
+
+<ul role="alert" aria-live="assertive" id="flash_message_holder"></ul>
+<div role="alert" aria-live="assertive" id="flash_screenreader_holder" class="screenreader-only"></div>
+
+<div id="application" >
+
+  <div id="header" class="no-print ">
+    <div id="header-inner">
+      <a href="#content" id="skip_navigation_link">Skip To Content</a>
+      <a id="header-logo" href="https://uvu.instructure.com/">My Dashboard</a>
+      <b id="header-logo-secondary"></b>
+      <div id="topbar" role="navigation" aria-label="User Menu">
+    <ul id="identity">
+      <li class="user_name"><a href="/about/1220100">Veronica Martinez</a></li>
+      <li class="first inbox">
+        <a href="/conversations?">
+          <span>Inbox</span>
+              <b class="unread-messages-count" style="display: none;">0</b>
+        </a>
+      </li>
+      <li><a href="/profile/settings">Settings</a></li>
+    <li class="user_id" style="display: none;">1220100</li>
+    <li class="course_id" style="display: none;">368679</li>
+    <li id="current_context_code" style="display: none;">course_368679</li>
+    <li class="user_long_name" style="display: none;">Veronica Martinez</li>
+    <li class="logout">
+      <form accept-charset="UTF-8" action="/logout" id="identity-logout-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="_method" type="hidden" value="delete" /><input name="authenticity_token" type="hidden" value="Vrgt5cQY4S/4WXl0xLV8qYChbmitKVtsd34K2q4pf/A63UGdky+Aea0bExym/knI5+deDdR9aCYHNHyPnnBGxw==" /></div>
+        <a href="/logout" onclick="document.getElementById(&#x27;identity-logout-form&#x27;).submit(); return false">Logout</a>
+</form>    </li>
+    <li id="identity-help-container"><a href="http://help.instructure.com/" class="support_url help_dialog_trigger" data-track-category="help system" data-track-label="help button">Help</a></li>
+</ul>
+
+</div>
+
+      
+        <ul role="navigation" id="menu" aria-label="Main Navigation">
+
+    <li id="courses_menu_item" class="menu-item">
+        <a href="/courses" class="menu-item-title">
+
+    Courses &amp; Groups    <span class="menu-item-title-icon"></span> <i class="icon-mini-arrow-down"></i>
+  </a>
+  <div class="menu-item-drop">
+    <table cellspacing="0">
+      <tr>
+        <td class="menu-item-drop-column" id="menu_enrollments">
+  <div class="menu-item-header-container">
+    <span class="menu-item-heading">
+      My Courses
+    </span>
+    <div class="menu-item-customize">
+      <a href="/courses" class="customListOpen">View All or Customize (4)</a>
+    </div>
+  </div>
+  <ul class="menu-item-drop-column-list">
+    <li class="customListItem" data-id="368679">
+  <a href="/courses/368679">
+    <span class="name ellipsis" title="DGM-1600-001 - DGM-1600">DGM-1600-001</span>
+      <span class="subtitle ellipsis enrollment_term menu-item-drop-float-right">2015 FALL</span>
+    <span class="subtitle ellipsis">enrolled as: Student</span>
+  </a>
+</li>
+<li class="customListItem" data-id="368678">
+  <a href="/courses/368678">
+    <span class="name ellipsis" title="DGM-2221-001 - DGM-2221">DGM-2221-001</span>
+      <span class="subtitle ellipsis enrollment_term menu-item-drop-float-right">2015 FALL</span>
+    <span class="subtitle ellipsis">enrolled as: Student</span>
+  </a>
+</li>
+<li class="customListItem" data-id="298574">
+  <a href="/courses/298574">
+    <span class="name ellipsis" title="ENGL-225H-601 - ENGL-225H">ENGL-225H-601</span>
+      <span class="subtitle ellipsis enrollment_term menu-item-drop-float-right">2014 FALL</span>
+    <span class="subtitle ellipsis">enrolled as: Student</span>
+  </a>
+</li>
+<li class="customListItem" data-id="357724">
+  <a href="/courses/357724">
+    <span class="name ellipsis" title="PHIL-205H-002 - PHIL-205H">PHIL-205H-002</span>
+      <span class="subtitle ellipsis enrollment_term menu-item-drop-float-right">2015 FALL</span>
+    <span class="subtitle ellipsis">enrolled as: Student</span>
+  </a>
+</li>
+
+  </ul>
+</td>
+
+          <td class="menu-item-drop-column">
+    <span class="menu-item-heading">Current Groups</span>
+    <ul class="menu-item-drop-column-list">
+      <li>
+  <a href="/groups/70529">
+    <span class="name ellipsis">Everyone 1</span>
+    <span class="subtitle ellipsis">ENGL-225H-601&nbsp;</span> 
+  </a>  
+</li>
+
+        <li class="menu-item-view-all"><a href="/groups" data-track-category="assignment dropdown" data-track-label="navigated">View all groups (6)</a></li>
+    </ul>
+  </td>
+
+        
+      </tr>
+    </table>
+  </div>
+
+    </li>
+    <li id="grades_menu_item" class="menu-item">
+      <a href="/grades" class="menu-item-no-drop">
+        Grades
+      </a>
+    </li>
+    <li id="calendar_menu_item" class="menu-item">
+      <a href="/calendar" class="menu-item-no-drop">
+        Calendar
+      </a>
+    </li>
+    
+  </ul>
+
+    </div>
+  </div>
+
+  <div id="instructure_ajax_error_box">
+    <div style="text-align: right; background-color: #fff;"><a href="#" class="close_instructure_ajax_error_box_link">Close</a></div>
+    <iframe id="instructure_ajax_error_result" src="about:blank" style="border: 0;"></iframe>
+  </div>
+
+  
+
+  <div id="wrapper-container" >
+    <div id="wrapper" >
+    
+          <div id="left-side" class="list-view ">
+              <h1 id="section-tabs-header">
+                DGM-1600
+              </h1>
+              <span id="section-tabs-header-subtitle" class="ellipsis">2015 FALL</span>
+            <nav aria-label="context" role="navigation"><ul id="section-tabs"><li class="section"><a class="home" href="/courses/368679">Home</a></li><li class="section"><a aria-label="Course Announcements" class="announcements" href="/courses/368679/announcements">Announcements</a></li><li class="section"><a aria-label="Course Assignments" class="assignments" href="/courses/368679/assignments">Assignments</a></li><li class="section"><a aria-label="Course Grades" class="grades" href="/courses/368679/grades">Grades</a></li><li class="section"><a class="people" href="/courses/368679/users">People</a></li><li class="section"><a aria-label="Course Files" class="files active" href="/courses/368679/files">Files</a></li><li class="section"><a class="syllabus" href="/courses/368679/assignments/syllabus">Syllabus</a></li><li class="section"><a class="quizzes" href="/courses/368679/quizzes">Quizzes</a></li><li class="section"><a class="modules" href="/courses/368679/modules">Modules</a></li></ul></nav>
+        </div>
+        <div id="main" >
+          <div id="not_right_side" >
+            <div id="content-wrapper" >
+                <nav aria-label="breadcrumbs" id="breadcrumbs" role="navigation"><ul><li class="home"><a href="/"><span class="ellipsible">      <i class="icon-home"
+         title="My Dashboard">
+        <span class="screenreader-only">My Dashboard</span>
+      </i>
+</span></a></li><li><a href="/courses/368679/files"><span class="ellipsible">Files</span></a></li><li><a href="/courses/368679/files/62234518"><span class="ellipsible">FlyScript.cs</span></a></li></ul></nav>
+                
+              <div id="content" role="main" class="container-fluid">
+                    <iframe id="file_content" src="https://cluster14-files.instructure.com/courses/368679/files/62234518/course%20files/FlyScript.cs?download=1&amp;inline=1&amp;sf_verifier=49283d708e1375dc6ae3cc05a25bbb7f&amp;ts=1441831714&amp;user_id=1220100" style="width: 100%; height: 400px;"></iframe>
+  <div id="sequence_footer" data-course-id="368679" data-asset-id="62234518" data-asset-type="File"></div>
+
+
+
+              </div>
+            </div>
+            <div id="right-side-wrapper" >
+              <aside id="right-side" role="complementary">
+                
+              </aside>
+            </div>
+          </div>
+        </div>
+      
+      <footer role="contentinfo" id="footer" >
+  <a href="http://www.instructure.com" class="footer-logo ">
+    <span class="screenreader-only">
+      By Instructure
+    </span>
+  </a>
+  <span
+    id="footer-links"
+    >
+    <a target="_blank" href="http://eepurl.com/1LSkT">User Research</a>
+      <a href="http://help.instructure.com/" class="support_url help_dialog_trigger" data-track-category="help system" data-track-label="help button">Help</a>
+    <a href="https://uvu.instructure.com/privacy_policy">Privacy policy</a>
+<a href="https://uvu.instructure.com/terms_of_use">Terms of service</a>
+<a href="http://facebook.com/instructure">Facebook</a>
+<a href="http://twitter.com/instructure">Twitter</a>
+
+  </span>
+</footer>
+    </div>
+  </div>
+
+
+
+    <div style="display:none;"><!-- Everything inside of this should always stay hidden -->
+        <a href="/page_views/a8fdc070-1c1a-43d2-9ad0-5988bd6a492c" id="page_view_update_path">&nbsp;</a>
+        <div id="page_view_id">a8fdc070-1c1a-43d2-9ad0-5988bd6a492c</div>
+        <a id="equella_endpoint_url" href="http://eq.uen.org/emedia/signon.do">&nbsp;</a>
+        <a id="equella_callback_url" href="https://uvu.instructure.com/external_content/success/equella">&nbsp;</a>
+        <a id="equella_cancel_url" href="https://uvu.instructure.com/external_content/cancel/equella">&nbsp;</a>
+        <a id="equella_action" href="selectOrAdd">&nbsp;</a>
+    </div>
+    <div id="cant_record_dialog" style="display: none;">
+  <div>
+    In order to create video or audio recordings your computer needs to be 
+    webcam-enabled.  If you don&#x27;t have a webcam on your computer, you can still
+    record audio-only messages by first installing the Google Video Chat
+    plugin.
+  </div>
+  <div style="text-align: center; font-size: 1.5em; margin: 10px;">
+    <a href="http://www.google.com/chat/video" target="_blank" class="btn">Install the Video Plugin</a>
+  </div>
+  <div class="links" style="text-align: right; font-size: 0.8em; display: none;">
+    <a href="#" class="cant_record_link">Don&#x27;t have a webcam?</a>
+  </div>
+</div>
+  <div id='aria_alerts' class='hide-text affix' role="alert" aria-live="assertive"></div>
+  <script>
+  INST = {"environment":"production","allowMediaComments":true,"kalturaSettings":{"domain":"nv.instructuremedia.com","resource_domain":"nv.instructuremedia.com","rtmp_domain":"fms-prod.instructuremedia.com","partner_id":"9","subpartner_id":"0","player_ui_conf":"0","kcw_ui_conf":"0","upload_ui_conf":"0","max_file_size_bytes":534773760,"do_analytics":false,"hide_rte_button":false,"js_uploader":true},"equellaEnabled":true,"googleAnalyticsAccount":"UA-9138420-1","disableGooglePreviews":true,"disableScribdPreviews":true,"enableHtml5FirstVideos":true,"logPageViews":true,"maxVisibleEditorButtons":3,"editorButtons":[{"name":"UEN eMedia","id":4490,"url":"https:\/\/eq-access.uen.org","icon_url":"https:\/\/eq.uen.org\/emedia\/entity\/11215465\/e_icon.png","width":800,"height":800},{"name":"Box","id":25898,"url":"https:\/\/www.edu-apps.org\/box\/","icon_url":"https:\/\/www.edu-apps.org\/assets\/lti_box_engine\/icon.png","width":430,"height":200},{"name":"Embed Kaltura Media","id":28652,"url":"https:\/\/1832361.kaf.kaltura.com\/browseandembed\/index\/browseandembed","icon_url":"https:\/\/cdnsecakmi.kaltura.com\/content\/uiconf\/canvas\/kaltura_sun.png","width":1100,"height":600},{"name":"EQUELLA","id":28660,"url":"https:\/\/uvu.equella.ecollege.com\/canvassignon.do?action=selectOrAdd\u0026cancelDisabled=true","icon_url":"https:\/\/uvu.equella.ecollege.com\/images\/equella.gif","width":1024,"height":768},{"name":"Office Mix","id":29845,"url":"https:\/\/mix.office.com\/lti\/Ext\/EmbedContent","icon_url":"https:\/\/mix.office.com\/content\/images\/lti\/MixIcon16.png","width":800,"height":600}]};
+  ENV = {};
+
+  // TODO: move this out when we have a single require call
+  require = {
+    translate: true,
+    baseUrl: '/optimized',
+    paths: {
+    "common":"compiled\/bundles\/common",
+    "jqueryui":"vendor\/jqueryui",
+    "compiled\/tinymce":"compiled\/tinymce.js?v2",
+    "demo_site":"plugins\/demo_site",
+    "migration_tool":"plugins\/migration_tool",
+    "instructure_misc_plugin":"plugins\/instructure_misc_plugin",
+    "analytics":"plugins\/analytics",
+    "multiple_root_accounts":"plugins\/multiple_root_accounts",
+    "canvasnet_registration":"plugins\/canvasnet_registration",
+    "compiled\/registration\/main_without_extensions":"compiled\/registration\/main",
+    "compiled\/registration\/main":"compiled\/registration\/main_with_extensions",
+    "compiled\/registration\/signupDialog_without_extensions":"compiled\/registration\/signupDialog",
+    "compiled\/registration\/signupDialog":"compiled\/registration\/signupDialog_with_extensions",
+    "compiled\/bundles\/modules\/account_quota_settings_without_extensions":"compiled\/bundles\/modules\/account_quota_settings",
+    "compiled\/bundles\/modules\/account_quota_settings":"compiled\/bundles\/modules\/account_quota_settings_with_extensions",
+    "canvas_quizzes":"client_apps\/canvas_quizzes",
+    "app\/config\/environments\/production":"empty:"},
+    packages : [{"name":"ic-ajax","location":"bower\/ic-ajax\/dist\/amd"},{"name":"ic-styled","location":"bower\/ic-styled"},{"name":"ic-menu","location":"bower\/ic-menu"},{"name":"ic-tabs","location":"bower\/ic-tabs\/dist\/amd"},{"name":"ic-droppable","location":"bower\/ic-droppable\/dist\/amd"},{"name":"ic-sortable","location":"bower\/ic-sortable\/dist\/amd"},{"name":"ic-modal","location":"bower\/ic-modal\/dist\/amd"},{"name":"ic-lazy-list","location":"bower\/ic-lazy-list"},{"name":"ember-qunit","location":"bower\/ember-qunit\/dist\/amd"}],
+    shim: {
+    'bower/react-router/dist/react-router': {
+      deps: ['react'],
+      exports: 'ReactRouter'
+    },
+    'bower/react-tray/dist/react-tray': {
+      deps: ['react']
+    },
+    'bower/react-modal/dist/react-modal': {
+      deps: ['react']
+    },
+    'bower/react-tokeninput/dist/react-tokeninput': {
+      deps: ['react'],
+    },
+    'bower/react-select-box/dist/react-select-box': {
+      deps: ['react'],
+    },
+    'bower/ember/ember': {
+      deps: ['jquery', 'handlebars'],
+      exports: 'Ember'
+    },
+    'bower/ember-data/ember-data': {
+      deps: ['ember'],
+      exports: 'DS'
+    },
+    'bower/handlebars/handlebars.runtime': {
+      exports: 'Handlebars'
+    },
+    'vendor/FileAPI/FileAPI.min': {
+      deps: ['jquery', 'vendor/FileAPI/config'],
+      exports: 'FileAPI'
+    },
+    'vendor/bootstrap-select/bootstrap-select' : {
+      deps: ['jquery'],
+      exports: '$'
+    },
+    'vendor/jquery.jcrop': {
+      deps: ['jquery'],
+      exports: '$'
+    },
+    'vendor/jquery.smartbanner': {
+      deps: ['jquery'],
+      exports: '$'
+    },
+    'handlebars': {
+      deps: ['bower/handlebars/handlebars.runtime.amd'],
+      exports: 'Handlebars'
+    },
+    'vendor/i18n': {
+      exports: 'I18n'
+    },
+    'vendor/react-infinite-scroll.min' : {
+      deps: ['react'],
+      exports: 'InfiniteScroll'
+    },
+    'bower/tinymce/tinymce' : {
+      exports: 'tinymce'
+    },
+    'bower/tinymce/themes/modern/theme' : {
+      deps: ['bower/tinymce/tinymce'],
+      exports: 'tinymce'
+    }
+  }
+,
+    map: {"canvas_quizzes":{"lodash":"underscore","d3":"vendor\/d3.v3","backbone":"vendor\/backbone","jquery\/instructure_date_and_time":"jquery.instructure_date_and_time","react":"old_unsupported_dont_use_react","react-router":"old_unsupported_dont_use_react-router"}},
+    waitSeconds: 60
+  };
+</script>
+
+<script src="https://du11hjcvx0uqb.cloudfront.net/dist/optimized/vendor/require-749d0c60e9.js" type="text/javascript"></script>
+
+<script src="https://du11hjcvx0uqb.cloudfront.net/dist/optimized/compiled/bundles/common-f327bccc9a.js" type="text/javascript"></script>
+<script src="https://du11hjcvx0uqb.cloudfront.net/dist/optimized/compiled/bundles/module_sequence_footer-a9be2d0275.js" type="text/javascript"></script>
+<script src="https://du11hjcvx0uqb.cloudfront.net/dist/optimized/compiled/bundles/file_inline-1d67f1ddb5.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+          require(['jquery'], function () {
+            ["https:\/\/desource.uvu.edu\/canvasbrandingtools\/ga.js"].forEach(function (src) {
+              var s = document.createElement('script');
+              s.src = src;
+              document.body.appendChild(s);
+            });
+          });
+
+//]]>
+</script>
+
+
+
+<script>
+// Determines if the scripts are loaded.
+// When we get everything out of the views, and have a single top-level
+// `require`, this becomes meaningless and will be abandoned.
+(function() {
+  var attempts = 0;
+  var timeout = 10;
+  var check = function() {
+    attempts++;
+    var done = !window.requirejs.s.contexts._.defQueue.length
+    var giveup = attempts === 100; // 1 second
+    if (done || giveup) {
+      var className = document.documentElement.className;
+      document.documentElement.className = className.replace(/scripts-not-loaded/, '');
+      return;
+    }
+    setTimeout(check, timeout);
+  };
+
+  check();
+}).call(this);
+</script>
+
+
+</div> <!-- #application -->
+</body>
+</html>
