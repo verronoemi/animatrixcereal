@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\AccessModifiers.cs" />
+     <Compile Include="Assets\Scripts\ClassDataTypes.cs" />
      <Compile Include="Assets\Scripts\DoWhileLoops.cs" />
      <Compile Include="Assets\Scripts\FlyScript.cs" />
      <Compile Include="Assets\Scripts\ForLoops.cs" />
