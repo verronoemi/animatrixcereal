@@ -24,7 +24,7 @@ public class FlyScript : MonoBehaviour
 		}
 	}
 
-	private void FlyAway()
+	public void FlyAway()
 
 	{
 		Debug.Log ("Fly Away!");
