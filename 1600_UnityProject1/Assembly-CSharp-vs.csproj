@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\ForLoops.cs" />
      <Compile Include="Assets\Scripts\ForeachLoops.cs" />
      <Compile Include="Assets\Scripts\IfElseStatements.cs" />
+     <Compile Include="Assets\Scripts\SwitchStatements.cs" />
      <Compile Include="Assets\Scripts\VariablesandFunctions.cs" />
      <Compile Include="Assets\Scripts\WhileLoops.cs" />
  <Reference Include="UnityEngine.Analytics">
