@@ -46,18 +46,20 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AccessModifiers.cs" />
-     <Compile Include="Assets\Scripts\Arrays.cs" />
-     <Compile Include="Assets\Scripts\ClassDataTypes.cs" />
-     <Compile Include="Assets\Scripts\DoWhileLoops.cs" />
-     <Compile Include="Assets\Scripts\Enumerations.cs" />
-     <Compile Include="Assets\Scripts\FlyScript.cs" />
-     <Compile Include="Assets\Scripts\ForLoops.cs" />
-     <Compile Include="Assets\Scripts\ForeachLoops.cs" />
-     <Compile Include="Assets\Scripts\IfElseStatements.cs" />
-     <Compile Include="Assets\Scripts\SwitchStatements.cs" />
-     <Compile Include="Assets\Scripts\VariablesandFunctions.cs" />
-     <Compile Include="Assets\Scripts\WhileLoops.cs" />
+     <Compile Include="Assets\Scripts\Basics\AccessModifiers.cs" />
+     <Compile Include="Assets\Scripts\Basics\Arrays.cs" />
+     <Compile Include="Assets\Scripts\Basics\ClassDataTypes.cs" />
+     <Compile Include="Assets\Scripts\Basics\DoWhileLoops.cs" />
+     <Compile Include="Assets\Scripts\Basics\Enumerations.cs" />
+     <Compile Include="Assets\Scripts\Basics\FlyScript.cs" />
+     <Compile Include="Assets\Scripts\Basics\ForLoops.cs" />
+     <Compile Include="Assets\Scripts\Basics\ForeachLoops.cs" />
+     <Compile Include="Assets\Scripts\Basics\IfElseStatements.cs" />
+     <Compile Include="Assets\Scripts\Basics\SwitchStatements.cs" />
+     <Compile Include="Assets\Scripts\Basics\VariablesandFunctions.cs" />
+     <Compile Include="Assets\Scripts\Basics\WhileLoops.cs" />
+     <Compile Include="Assets\Scripts\DuckHealth.cs" />
+     <Compile Include="Assets\Scripts\DuckSpawner.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
