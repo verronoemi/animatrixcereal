@@ -10,6 +10,4 @@ public class DuckHealth : MonoBehaviour
 			Destroy (this.gameObject);
 		}
 	}
-
-
 }
